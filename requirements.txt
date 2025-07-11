@@ -3,3 +3,6 @@ pytest
 numpy
 pandas
 matplotlib
+flake8
+black
+pytest-cov
