@@ -1,6 +1,13 @@
 # Task / Repo Overview
 This assignment is to create a simple web app and implement a CI pipeline. A reflection is also written below
 
+# Reflection
+I initally tried to setup my CI pipeline with jenkins but it ended being a hassel to install python in the container. 
+I went with github actions it's easier to use other peoples code (eetting up and install python, uploading artifacts, etc)
+One improvement i would make is configuring the .flake8. There are some things in which I do not care for. I would also
+add checking for typehints. CI will improve my ability to write consistent code and ensure good type hints. Often times I make changes and forget to 
+update the type hints
+
 # Commands
 
 ### Setup

@@ -10,7 +10,7 @@ with st.form("my_form"):
     selected_countries = st.multiselect("Countries", countries, default=countries[:2])
     format_data = st.checkbox("Format Data", value=True)
     submit_button = st.form_submit_button("Submit")
-    
+
 if submit_button:
     st.header("Data for Countries:")
     data = get_country_data(selected_countries)
