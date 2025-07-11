@@ -76,3 +76,5 @@ Submit the following components:
         Screenshots or links showing successful pipeline runs
         Evidence that all 5 pipeline tasks execute successfully
         Screenshots showing pipeline failures (e.g., failed tests, code quality issues)
+
+
