@@ -5,8 +5,9 @@ pipeline {
         stage('Build') {
             steps {
                 checkout scm
-                sh 'apt update'
-                sh "apt install -y python3-venv"
+                // sh 'apt update'
+                sh "python3.12"
+                sh "apt install python3.12-venv"
                 sh "python3 -m venv venv"
                 sh "source venv/bin/activate && pip install -r requirements.txt"
             }
